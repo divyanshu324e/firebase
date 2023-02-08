@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.home{
+    width: 300px;
+    border-radius: 20px;
+    border: 6px solid rgb(145, 145, 143);
+    height: 400px;
+    margin: 20vh auto;
+    background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 5px 5px 80px 20px rgb(165, 125, 13);
+
+}
+
+.btn{
+    text-decoration: none;
+    font-family: 'Black Ops One', cursive;
+    font-size: 32px;
+    color: rgba(255, 255,255,1.0);
+    /* below lines of code used to center login and signup link in center of two button like div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    color: 	hsla(40, 79%, 54%, 1.0)
+}
+
+.login{
+    width: 160px;
+    height: 60px;
+    background-color: rgba(44, 29, 29, 0.8);
+    margin: 100px auto 0;
+    border-radius: 5px;
+}
+
+.signup{
+    width: 160px;
+    height: 60px;
+    background-color: rgba(44, 29, 29, 0.8);
+    margin: 20px auto 100px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgb(48, 37, 32);
+}
